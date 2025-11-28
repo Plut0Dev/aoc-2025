@@ -1,0 +1,22 @@
+@import "../../node_modules/tailwindcss";
+
+@layer base {
+    .half {
+        clip-path: inset(0 0 50% 0);
+    }
+    .third {
+        clip-path: inset(0 0 30% 0);
+    }
+    .two-third {
+        clip-path: inset(0 0 60% 0);
+    }
+    .quarter {
+        clip-path: inset(0 0 25% 0);
+    }
+    .three-quarters {
+        clip-path: inset(0 0 75% 0);
+    }
+
+    /* Abdunkelung */
+
+}

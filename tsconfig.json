@@ -28,7 +28,8 @@
     "**/*.tsx",
     ".next/types/**/*.ts",
     ".next/dev/types/**/*.ts",
-    "**/*.mts"
+    "**/*.mts",
+    "node_modules/.pnpm/pure-snow.js@2.1.0/node_modules/pure-snow.js/pure-snow.js"
   ],
   "exclude": ["node_modules"]
 }
