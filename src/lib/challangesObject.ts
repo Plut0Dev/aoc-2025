@@ -3,10 +3,9 @@ import {StarMissionProps} from "@/components/overview/StarMission";
 export const Challenges : ChallengesType = {
     day1: {
         state: 100,
-        link1: "/day1"
     },
     day2: {
-        state: 0,
+        state: 100,
     },
     day3: {
         state: 0,

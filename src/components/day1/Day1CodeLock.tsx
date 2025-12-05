@@ -9,7 +9,7 @@ interface numberFieldProps  {
 const NumberField = ({text}:numberFieldProps) => {
   return (
       <motion.div whileTap={{scale: 0.98}}
-                  className={"w-full h-full bg-gray-300 flex justify-center items-center"}>
+                  className={"select-none w-full h-full bg-gray-300 flex justify-center items-center"}>
           {text}
       </motion.div>
   )
@@ -65,8 +65,8 @@ export const Day1CodeLock = ({unlockDoorFunction}:Day1CodeLockProps) => {
     return (
         <div
             onClick={handleClick}
-            className={"bg-gray-900 h-30 w-20 grid gap-2 p-2 grid-rows-5 grid-cols-3 self-center relative left-10 -top-20 "}>
-            <div className={"w-full h-full bg-emerald-500 col-span-3 flex text-[10px]  items-center"}> {code}</div>
+            className={"cursor-pointer bg-gray-900 h-30 w-20 grid gap-2 p-2 grid-rows-5 grid-cols-3 self-center relative left-10 -top-20 "}>
+            <div className={"w-full h-full bg-emerald-500 col-span-3 flex text-[10px]  items-center select-none"}> {code}</div>
             <NumberField text={"1"}></NumberField>
             <NumberField text={"2"}></NumberField>
             <NumberField text={"3"}></NumberField>

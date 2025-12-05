@@ -36,7 +36,7 @@ export const StarMission = ({day, state, link1, ...props}: StarMissionProps) => 
             <motion.div className={"flex"}
                         whileHover={{scale: 1.1}}
                         whileTap={{scale: 0.9}}
-                        onClick={() => redirect(`/${day}`)}
+                        onClick={() => redirect(state>0?`/${day}`:"")}
             >
                 <Star size={100} color={"#FFC834"} strokeWidth={4} className={""}/>
                 <Star size={100} color={"#000000"} strokeWidth={4} className={clipCss()}/>

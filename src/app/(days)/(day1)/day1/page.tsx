@@ -91,7 +91,7 @@ export default function day1Page() {
         <div className={"flex w-screen bg-gray-500 h-screen p-2 overflow-hidden"}>
             <Day1Door/>
             <Day1Tresor/>
-            <div className={"w-10 h-12 bg-amber-200 text-black text-center relative self-center -top-30 -left-40"}>
+            <div className={"w-10 h-12 bg-amber-200 text-black text-center relative self-center -top-30 -left-40 select-none"}>
                 ----
                 <br/>
                 ----

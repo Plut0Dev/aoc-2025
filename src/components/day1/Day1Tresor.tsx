@@ -7,7 +7,8 @@ export const Day1Tresor = () => {
             <motion.div
                 whileHover={{scale: 1.05}}
                 whileTap={{rotate: 640}}
-                className={"absolute top-1/2 -translate-1/2 left-3/10  bg-gray-800 rounded-full w-10 h-10 text-white flex justify-center items-start font-extrabold"}>^
+                className={"cursor-pointer absolute top-1/2 -translate-1/2 left-3/10  bg-gray-800 rounded-full w-10 h-10 text-white flex justify-center items-start font-extrabold select-none"}>
+                ^
             </motion.div>
         </div>
     )
