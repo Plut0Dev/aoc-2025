@@ -1,8 +1,8 @@
-import {StarMissionProps} from "@/components/StarMission/StarMission";
+import {StarMissionProps} from "@/components/overview/StarMission";
 
 export const Challenges : ChallengesType = {
     day1: {
-        state: 0,
+        state: 100,
         link1: "/day1"
     },
     day2: {
