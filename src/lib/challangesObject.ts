@@ -11,10 +11,10 @@ export const Challenges : ChallengesType = {
         state: 100,
     },
     day4: {
-        state: 0,
+        state: 75,
     },
     day5: {
-        state: 0,
+        state: 25,
     },
     day6: {
         state: 0,

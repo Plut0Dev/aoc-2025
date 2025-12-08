@@ -7,13 +7,11 @@ export default function Day3Page() {
         let result = 0
         const banks = input.split("\n");
         banks.forEach((bank) => {
-            console.log(bank);
             let bankArray = bank.split("")
             bankArray.pop()
             const highestFirst = bankArray.sort((a, b) => Number(b) - Number(a))[0]
             const highestSecond = bank.substring(bank.indexOf(highestFirst) + 1).split("").sort((a, b) => Number(b) - Number(a))[0]
             const highestPossible = Number(highestFirst.toString() + highestSecond)
-            console.log(highestPossible)
             result += highestPossible
         })
         return result
