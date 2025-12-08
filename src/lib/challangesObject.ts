@@ -8,7 +8,7 @@ export const Challenges : ChallengesType = {
         state: 100,
     },
     day3: {
-        state: 0,
+        state: 100,
     },
     day4: {
         state: 0,

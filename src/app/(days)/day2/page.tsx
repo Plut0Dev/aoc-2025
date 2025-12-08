@@ -1,5 +1,5 @@
 import {Day2Computer} from "@/components/day2/Day2Computer";
-import {Day2Input} from "@/components/day2/day2Input";
+import {Day2Input} from "@/app/(days)/day2/day2Input";
 
 
 export default function Day2Page() {
